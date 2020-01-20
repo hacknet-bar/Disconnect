@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission">
+  <goals>
+	<goal type="fileupload" target="starnode2" file="EastData.doc" path="home" destTarget="DCDrop" destPath="Drop/Uploads"/>
+	
+  </goals>
+  <missionStart val="0">setFaction:Come</missionStart>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/ComeMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>Disconnect - 邀请</subject>
+    <body>
+#PLAYERNAME#...好久不见。这是一封关于我的组织Disconnect的邀请函，我希望我们的组织就像disconnect的日志一样抹除不掉。
+之前的事...你应该也明白我的组织的强大了吧。所以，我邀请你进入我们的组织，但是你要通过一个小测试：
+获得一份机密文件，它应该是一个doc文件，下载它，上传到我们的服务器上，你就通过了测试。
+    </body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="starnode1" />
+	  <link comp="DCDrop" />
+    </attachments>
+  </email>
+</mission>

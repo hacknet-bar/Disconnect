@@ -1,0 +1,57 @@
+<ConditionalActions>
+  <Instantly>
+
+    <RunFunction FunctionName="playCustomSong:Music/FrankKlepackiinDeep.ogg" FunctionValue="1" />
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="8.0">@#PLAYERNAME# 谢谢了</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="11.0">啊没什么</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="13.0">啊啊啊啊啊！！！</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="13.9">!!!WARNING!!!</AddIRCMessage> 
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="14.0">*** 与 D3F4ult 工作站 的追踪器连接发生错误！***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="15.0">*** 追踪器出现重大错误！***</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="17.0">@D3F4ult 怎么了！？</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="19.0">D3F4ult出了什么事？！</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="21.0">*** Kaguya 退出了DHS！***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="25.0">*** 与 Kaguya 网关 的追踪器连接发生错误！***</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="28.0">诶诶？他们怎么了？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="30.0">D3F4ult是不是在完成任务的时候...</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="30.1">*** HY_ROOTKIT.bat 运行中...***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="30.5">*** HY进入了DHS！***</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="32.0">怎么回事...</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="36.0">嗯~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="38.0">你们的成员好像在试图清理留下的痕迹呢~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="41.0">不过呢~现在他的电脑大概再也打不开了吧~</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="44.0">你...你对D3F4ult干了什么！</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="46.0">诶呀~小姐姐别生气嘛~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="48.0">他只是打不开电脑了嘛~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="50.0">这没什么嘛~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="52.0">毕竟呀~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="53.0">你们还不知道我们的目标呢~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="55.0">让  人  们  自  相  残  杀</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="57.0">诶呀~不小心透露了目的呢~</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="59.0">既然这样...</AddIRCMessage>
+	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="61.0">也好测试一下ROOTKIT的威力吧~</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="63.0">What The H...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="67.0">不！</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/DHS/playWave.xml" DelayHost="DCDHS" Delay="69.0"/>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="69.0">啊啊啊啊啊啊啊啊啊啊啊！！</AddIRCMessage>
+	<DeleteFile TargetComp="CoelGateway" FilePath="sys" FileName="x-server.sys" DelayHost="EDI" Delay="69.0"/>
+	<DeleteFile TargetComp="CoelGateway" FilePath="sys" FileName="os-config.sys" DelayHost="EDI" Delay="69.0"/>
+	<DeleteFile TargetComp="CoelGateway" FilePath="sys" FileName="bootcfg.dll" DelayHost="EDI" Delay="69.0"/>
+	<DeleteFile TargetComp="CoelGateway" FilePath="sys" FileName="netcfgx.dll" DelayHost="EDI" Delay="69.0"/>
+	<DeleteFile TargetComp="D3F4ultWorkstation" FilePath="sys" FileName="x-server.sys" DelayHost="EDI" Delay="69.0"/>
+	<DeleteFile TargetComp="D3F4ultWorkstation" FilePath="sys" FileName="os-config.sys" DelayHost="EDI" Delay="69.0"/>
+	<DeleteFile TargetComp="D3F4ultWorkstation" FilePath="sys" FileName="bootcfg.dll" DelayHost="EDI" Delay="69.0"/>
+	<DeleteFile TargetComp="D3F4ultWorkstation" FilePath="sys" FileName="netcfgx.dll" DelayHost="EDI" Delay="69.0"/>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="70.0">*** 与 Coel 网关 的追踪器连接发生错误！***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="71.0">*** 与 Tom 笔记本 的追踪器连接发生错误！***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="72.0">*** 与 Pot 作战基地 的追踪器连接发生错误！***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="73.0">*** 与................***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="74.0">*** 系ToNGfA生yAN重错wU...***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="75.0">*** cHanG试xIuFU...***</AddIRCMessage>
+   <LaunchHackScript Filepath="HackerScripts/HYHack.txt" DelayHost="EDI" Delay="67.1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false"/>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="76.0">*** XiUfUShIbAI...***</AddIRCMessage>
+	<CrashComputer TargetComp="DCDHS" CrashSource="EDI" DelayHost="EDI" Delay="80.0" />
+	<AddConditionalActions Filepath="Actions/AfterHY.xml" DelayHost="EDI" Delay="0.0"/>
+
+  </Instantly>
+</ConditionalActions>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDW" 
+          name="EastData 网络服务器" 
+          security="4"
+		  ip="31.25.26.857"
+          allowsDefaultBootModule="false"
+          icon="dlcServer" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881</ports>
+  <trace time="100" />
+  <adminPass pass="745bhcfug68Jp" />
+  <portRemap>21=8080,22=1024,6881=6882</portRemap>
+  <CustomConnectDisplayDaemon />
+  
+
+  <file path="home" name="预售服务器.txt">G678yu</file>
+    <file path="home" name="白名单.txt">又有人在问我白名单的IP了，但它是个重要服务器，所以，11111 11001 1000111101 11110110，二进制，你们懂的</file>
+
+
+  <dlink target="EDWL" />
+</Computer>

@@ -1,0 +1,8 @@
+<CustomFaction name="Come" id="Come" playerVal="0">
+  
+  <Action ValueRequired="1">
+  <AddConditionalActions Filepath="Actions/Come.xml" DelayHost="Cheat" Delay="1"/>
+  </Action>
+
+
+</CustomFaction>

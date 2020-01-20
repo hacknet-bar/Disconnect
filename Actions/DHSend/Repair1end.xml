@@ -1,0 +1,27 @@
+<ConditionalActions>
+  <Instantly>
+
+    <RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-Grinder.ogg" FunctionValue="1" />
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="8.0">@#PLAYERNAME# 谢谢了</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="11.0">没关系...@Coel 的网关好了吗</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="15.0">...还是不行吗...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="17.0">ROOTKIT的杀伤力...真的太强大了...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="20.0">如果让ROOTKIT散播出去，后果不堪设想...</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="22.0">***Disconnect Tracker Starting...***</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25.0">希望这样有用...</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="26.0">@Coel ?</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="28.0">***与Coel网关的连接正在进行中...***</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="30.0">啊！我回来了！</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="32.0">Coel！！！！</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="34.0">@#PLAYERNAME# 控制一下情绪...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="36.0">咳咳</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="39.0">顺便一说 我已经把Peter的RTSP破解器上传到共享服务器了</AddIRCMessage>
+	<AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="41.0">啊太好了</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="43.0">@#PLAYERNAME# @Coel 接下来我们还要修复其他人的系统</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="46.0">嗯</AddIRCMessage>
+		<AddMissionToHubServer MissionFilepath="Missions/Other/Repair2.1.xml" TargetComp="DCDHS" AssignmentTag="Pitiedwzr"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Repair2.xml" TargetComp="DCDHS" />
+	<AddMissionToHubServer MissionFilepath="Missions/Other/Repair2.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+  </Instantly>
+</ConditionalActions>

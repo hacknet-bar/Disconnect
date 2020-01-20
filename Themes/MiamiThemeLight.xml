@@ -1,0 +1,25 @@
+<CustomTheme>
+  <themeLayoutName>miamiLight</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Miami.jpg</backgroundImagePath>
+
+  <defaultHighlightColor>214,150,212</defaultHighlightColor>
+  <defaultTopBarColor>0,0,0, 100</defaultTopBarColor>
+  <warningColor>255,0,0</warningColor>
+
+  <shellColor>222,201,24</shellColor>
+  <shellButtonColor>105,167,188</shellButtonColor>
+
+  <moduleColorSolidDefault>65,152,176</moduleColorSolidDefault>
+  <moduleColorStrong>32,182,232</moduleColorStrong>
+  <moduleColorBacking>6,6,6,160</moduleColorBacking>
+
+  <AFX_KeyboardMiddle>0,120,255</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>255,150,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>0,120,255</AFX_WordLogo>
+  <AFX_Other>0,100,255</AFX_Other>
+  <thisComputerNode>95,220,83</thisComputerNode>
+
+  <exeModuleTopBar>32,182,232,80</exeModuleTopBar>
+  <exeModuleTitleText>10,10,10,200</exeModuleTitleText>
+
+</CustomTheme>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CoelGateway" name="CoelGateway" security="4" ip="208.73.210.214" icon="DLCServer" allowsDefaultBootModule="false" type="4" >
+
+
+<proxy time="1" />
+  <firewall level="4" solution="coelllllll" additionalTime="0.3"/>
+  <portsForCrack val="4" />
+  <ports>22, 21, 6881, 25</ports>
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="home" name="not_the_first.txt">Hi Hanna</file>
+  <customthemefile path="sys" name="x-server.sys" themePath="Themes/CoelTheme.xml"/>
+  <customthemefile path="sys" name="coel_x-server.sys" themePath="Themes/CoelTheme.xml"/>
+  <customthemefile path="home" name="coel_x-server.sys" themePath="Themes/CoelTheme.xml"/>
+
+
+<dlink target="CoelTracker" />
+
+</Computer>

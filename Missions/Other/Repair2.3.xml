@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Repair1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+  </goals>
+
+  <nextMission>NONE</nextMission>
+  <posting title="修复系统 - Pot" reqs="Repair2.3" >
+    帮忙修复Pot的作战基地
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>修复系统</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

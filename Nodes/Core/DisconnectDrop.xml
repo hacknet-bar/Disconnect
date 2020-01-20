@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="DCDrop"
+          name="Disconnect共享服务器"
+		  ip="786.8.8.8"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+<uploadServerDaemon name="Disconnect共享" folder="Drop"
+                    needsAuth="false" color="17,29,48" hasReturnViewButton="true"/>
+
+<adminPass pass="DC" /> 
+
+<ports>22, 21, 6881, 443</ports>
+  <proxy time="3" />
+  <portsForCrack val="7" />
+  <firewall level="-1" />
+  <trace time="95" />
+  <admin type="none"/>
+  
+  <file path="bin" name="SecurityTraceker.exe">1100111111000000110100101010001101100000111111101010110111011011010000111011101011111100101010000110110110001011101110001011110110100111100101001010100111110101110110111100101111101000111110010111110010101001011100010111011001111011111001000111110100000111110100011111010110000001110101110000101100101111110111010110010110011111000011001110110100001001011000010001111111101101100001011010110110111001100100011110100101000011101110</file>
+
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+</Computer>

@@ -1,0 +1,19 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3">@channel 干得不错！</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="6">这样...我们就有了Kaguya的网关IP了</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="9">但是Kaguya的网关的防御太强了，我们甚至无法破解...</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="12">是啊...</AddIRCMessage>
+	<LoadMission MissionName="Missions/PotA.xml"/>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="13">@#PLAYERNAME# 我已经把下个需要的工具上传到了共享服务器</AddIRCMessage>
+	<AddAsset FileName="PacificPortcrusher.exe" FileContents="#PACIFIC_EXE#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="15">@channel Pot乘坐的PA3451飞机出了点问题 紧急上传热补丁应该可以避免发生事故</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="16">万幸的是 没有人重启固件</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="18">我没有737的控制固件 但是747的固件应该也可以使用</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="21">@#PLAYERNAME# 快 你可以从另一架飞机上获取固件 这是飞机IP</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25">!ATTACHMENT:link#%#PA_737_MAX_8_3451 飞控电脑#%#209.15.13.134</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="27">!ATTACHMENT:link#%#PA_747_400_4965 飞控电脑#%#206.53.17.974</AddIRCMessage>
+  </Instantly>
+
+</ConditionalActions>

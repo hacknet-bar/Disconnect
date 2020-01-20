@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM3.3" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="说服" reqs="DHSM3.3" >
+说服EastData的员工加入我们
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>说服</subject>
+    <body>
+
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	 
+    </attachments>
+  </email>
+</mission>

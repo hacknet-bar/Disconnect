@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSMK" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="getstring" target="54.183.231.31" />
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/K1End.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="Find Kaguya -#PLAYERNAME# " reqs="DHSMK" >
+    寻找Kaguya留下的痕迹
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>寻找Kaguya</subject>
+    <body>
+	为了查明Kaguya是否背叛了我们并且将关于我们的情报透露给HY，我们需要将Kaguya的行踪查明
+我建议你先从追踪器查起，当你找到Kaguya的网关时将他的IP回复给我就好
+</body>
+    <attachments>
+	  <link comp="Tracker" />
+    </attachments>
+  </email>
+</mission>

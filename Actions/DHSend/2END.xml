@@ -1,0 +1,55 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3.0">@Tom 感谢@#PLAYERNAME# 吧</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="5.0">我刚睡……</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="8.0">诶？？谢谢@#PLAYERNAME# ！</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="11.0">没关系</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="13.0">反正他永远也打不开他的电脑了</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="17.0">哈哈哈哈哈哈哈哈哈</AddIRCMessage>
+	<RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-ready_the_army.ogg" FunctionValue="1" />
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25.0">好了</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="29.0">接下来的任务可能比较困难</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="34.0">嗯</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="38.0">我在共享服务器上传了破解器</AddIRCMessage>
+	<AddAsset FileName="FTPSprint.exe" FileContents="#FTP_FAST_EXE#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="40.5">*** 用户 Pitiedwzr 上传了文件！ ***</AddIRCMessage>
+	<AddIRCMessage Author="Kaguya" TargetComp="DCDHS" Delay="45.0">是FTPSprint吗？</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="48.0">没错。</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="50.0">但是这个破解器的开发者不是别人。</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="53.0">而是EastData！</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="56.0">东部数据？</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="58.0">...直译大概是这样吧</AddIRCMessage>
+	<AddIRCMessage Author="Kaguya" TargetComp="DCDHS" Delay="60.0">...能不能先不要讨论翻译的问题，@Pitiedwzr 你继续说。</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="62.0">啊好的</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="63.5">据我所知，EastData是一个硬件厂商。</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="66.0">嗯</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="68.0">一个硬件开发商，研究出一个复杂的破解器，这点非常奇怪。</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="70.0">我解密的文件内容也说明了EastData绝对不是一个普通的硬件厂商</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="72.0">那份文件表明EastData跟Star有联系</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="74.0">是的，所以这次任务，我需要你们探索EastData的服务器</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="76.0">由于这次任务比较困难，由@D3F4ult @#PLAYERNAME# 和一位神秘黑客完成</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="78.0">好的</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="79.5">等等...神秘黑客？</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="82.0">@Tom 是时候了</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="84.0">好</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="85.0">*** Coel加入了服务器！***</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="86.5">Coel？！</AddIRCMessage>
+	<AddIRCMessage Author="Kaguya" TargetComp="DCDHS" Delay="88.0">啊...你来了...Coel...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="90.0">Coel！你真的来了！</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="92.0">是的，我来了，@Kaguya 惊不惊喜意不意外？</AddIRCMessage>
+	<AddIRCMessage Author="Kaguya" TargetComp="DCDHS" Delay="94.0">那次的事....</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="94.1">啊@Kaguya @Coel 你们以前的事能不能先放一放</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="96.0">我们还有任务啊喂！</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="98.0">总之，@D3F4ult @#PLAYERNAME# 和@Coel 要探索EastData的服务器并获得EastData项目服务器的管理员权限</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="100.0">嗯</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="102.0">嗯</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="104.5">嗯</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="106.0">去吧！</AddIRCMessage>
+	<AddMissionToHubServer MissionFilepath="Missions/EastData/1.xml" TargetComp="DCDHS" />
+	<AddMissionToHubServer MissionFilepath="Missions/Other/ed1.2.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/ed1.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+	
+  </Instantly>
+
+</ConditionalActions>

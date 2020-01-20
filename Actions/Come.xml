@@ -1,0 +1,22 @@
+<ConditionalActions>
+  
+<OnConnect target="DCDHS">
+<RunFunction FunctionName="setAssetServer:DCDrop" FunctionValue="1" />
+	<RunFunction FunctionName="setHubServer:DCDHS" />
+	<ChangeAlertIcon Target="DCDHS" Type="irchub" DelayHost="EDI" Delay="1.0"/>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="-2">所以为什么新人还没来</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="-1">再等等吧</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="11.0">嗨！@#PLAYERNAME# 你终于来了，我们等你很久了</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="13.0">新人？快来几个人欺负他</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="14.0">你不要过来啊啊啊啊啊</AddIRCMessage>
+	<AddIRCMessage Author="Kaguya" TargetComp="DCDHS" Delay="16.0">@#PLAYERNAME# 嗨！好久不见。</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="17.1">是啊是啊，从@Kaguya 试图把飞机摧毁后就没见过面了呢</AddIRCMessage>
+	<AddIRCMessage Author="Kaguya" TargetComp="DCDHS" Delay="18">......</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="19.5">好了，话说你联系上Coel了吗...</AddIRCMessage>
+	<AddIRCMessage Author="Kaguya" TargetComp="DCDHS" Delay="20">我一直试图联系Coel...</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="22">啧...对了@#PLAYERNAME# 你可以去接任务了。</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25">@channel 我在共享服务器放了一些新东西</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/DHS/1.xml" DelayHost="DCDHS" Delay="18"/>
+  </OnConnect>
+
+</ConditionalActions>

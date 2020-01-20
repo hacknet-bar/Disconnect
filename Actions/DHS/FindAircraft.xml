@@ -1,0 +1,9 @@
+<ConditionalActions>
+  <Instantly>
+  <AddMissionToHubServer MissionFilepath="Missions/Other/FindAircraft.1.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+  <AddMissionToHubServer MissionFilepath="Missions/Other/FindAircraft.2.xml" TargetComp="DCDHS" AssignmentTag="Tom"/>
+  <AddMissionToHubServer MissionFilepath="Missions/FindAircraft.xml" TargetComp="DCDHS" />
+  <AddMissionToHubServer MissionFilepath="Missions/Other/FindAircraft.4.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+  </Instantly>
+  
+</ConditionalActions>

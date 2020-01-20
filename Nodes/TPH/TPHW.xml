@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TPHW" 
+          name="TPH 网络服务器" 
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="dlcServer" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881</ports>
+  <trace time="60" />
+  <portRemap>21=8080,22=1024,6881=6882</portRemap>
+  <CustomConnectDisplayDaemon />
+  
+ <file path="home" name="WhitelistIP.txt">圆周率 不算小数点 前5位</file>
+<dlink target="TPHS" />
+  <dlink target="TPHWL" />
+</Computer>

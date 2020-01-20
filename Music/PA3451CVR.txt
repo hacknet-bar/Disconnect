@@ -1,0 +1,69 @@
+[自动驾驶警报]
+PIC：什么情况？
+FO：自动驾驶出了问题？
+PIC：我先保持姿态！你看一下飞控电脑!
+FO:自动驾驶固件缺失！
+PIC：什么...
+PIC：就像...PA0022？！
+FO：....
+PIC：先不要想PA0022了！想办法改出！
+FO：机鼻拉不起来！
+PIC：怎么可能？！
+PIC：液压失效了？！
+FO：我们超速了！
+[超速警告]
+[构型警告]
+PIC：操作手册有说到这种情况吗？
+FO：我正在找！
+FO：没有!
+PIC:把操作手册给我！我来找！
+[翻动声]
+PIC：怎么会...
+[引擎起火]
+FO：引擎起火了！
+[金属碎裂声]
+PIC：右侧引擎没有反应了？！
+FO：右侧机翼折断了！
+PIC：怎么...
+FO:机长！飞控电脑是故障了吗?
+PIC:R-O-O-T-K-I-T
+PIC:那是什么意思？！
+FO：我不知道！！
+PIC：不！！！！！！！！！！！
+[坠毁声]
+[录音停止]
+
+[Automatic driving alert]
+PIC: What is the situation?
+FO: Is there a problem with automatic driving?
+PIC: I will keep my posture! Look at the flight control computer!
+FO: Automated driving firmware is missing!
+PIC: What...
+PIC: Just like...PA0022? !
+FO:....
+PIC: Don't worry about PA0022 first! Find a way to change it!
+FO: The nose cannot be pulled up!
+PIC: How is it possible? !
+PIC: Hydraulic failure? !
+FO: We are speeding!
+[speed warning]
+[configuration warning]
+PIC: Does the operating manual say this?
+FO: I am looking for!
+FO: No!
+PIC: Give me the operation manual! I am looking for it!
+[flip]
+PIC: How come...
+[engine fire]
+FO: The engine is on fire!
+[Right wing is broken]
+PIC: The right engine is not responding? !
+FO: The right wing is broken!
+PIC: How?
+FO: Captain! Is the flight control computer a malfunction?
+PIC: R-O-O-T-K-I-T
+PIC: What does that mean? !
+FO: I don't know! !
+PIC: No! ! ! ! ! ! ! ! ! ! !
+[crashing sound]
+[recording stop]

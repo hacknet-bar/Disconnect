@@ -1,0 +1,8 @@
+<ConditionalActions>
+  <Instantly>
+
+<SwitchToTheme ThemePathOrName="Themes/EraseEnd/8.xml" FlickerInDuration="-1.0" />
+
+
+  </Instantly>
+</ConditionalActions>

@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM4" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="fileupload" target="TPHSTAR" file="Star.dec" path="home" destTarget="DCDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/4END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="Star-再一次-#PLAYERNAME#" reqs="DHSM4" >
+    调查TPH与Star的联系
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>再一次</subject>
+    <body>
+	我们不能再袖手旁观了，现在我们要调查TPH与Star之间的关系。
+	根据我的最新情报，TPH有一台它与别家公司的联络中心，或许那里可以找到Star的一些文件。
+	具体内容我已经写在了笔记里。
+	我建议你从TPH与Psylance的交互中心开始调查，那里或许有被TPH隐藏的服务器。
+	Good Luck
+	-P
+</body>
+    <attachments>
+      <note title="笔记">
+	  进入TPH的内部服务器
+	  找到与Star有关的文件
+	  上传至共享服务器
+	  </note>
+	  <link comp="PLTPH" />
+	  <link comp="DCDrop" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PA3451FDR" name="PA_737_MAX_8_3451 飞行数据记录仪" security="5" type="4" icon="Psylance" ip="42.27.7.96">
+  
+  <portsForCrack val="6" />
+  <ports>22, 192, 1433 ,554, 21, 6881</ports>
+  <firewall level="10" solution="hGy92gUgaX" additionalTime="1.0"/>
+  <proxy time="1" />
+  <trace time="90" />
+   
+<LogoCustomConnectDisplayDaemon logo="Psylance/Psylance_Big.png" title="Psylance/PsylanceTitle.png" overdrawLogo="true" buttonAlignment="right" />
+
+<memoryDumpFile name="PA3451FlightData.fdr" path="home">
+    <Memory>
+      <Data>
+        <Block>
+		00: 01 自动驾驶警报
+		00：09 飞机攻角3度
+		01：00 飞机攻角6度
+		01：30 超速警报
+		01: 50 构型警报
+		02：20 引擎起火
+		02：50 右侧机翼折断
+		03：10 记录停止
+		</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+</Computer>

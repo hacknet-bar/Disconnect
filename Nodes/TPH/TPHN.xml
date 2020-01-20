@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TPHN"
+          name="TPH内部服务器"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="dlcServer"
+          type="1" >
+  <ports>22, 21, 6881, 443, 192, 554</ports>
+   <portRemap>22=1024,6881=7992</portRemap>
+  <portsForCrack val="6" />
+  <trace time="90" />
+
+
+
+</Computer>

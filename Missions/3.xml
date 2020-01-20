@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="filedeletion" target="TPHS" file="commit#8431#*.res" path="database"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/3END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="保修" reqs="DHSM3" >
+    让TPH闭嘴
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>保修</subject>
+    <body>
+	你听没听说过TPH？对，就是那个TPH，全球最大的主板，显卡，外设厂商。但是，TPH最近做的事越来越...
+事情是这样的，我的一个朋友半年前购买了TPH的主板，中端系列的，但最近他的主板出了问题，于是他将主板快递给了TPH售后部，
+但售后在检测完问题后将主板寄了回去，原因是保修期已过，但他购买时主页显示的为1年内保修，而现在只有5个月保修。
+总之，你要做的就是删除一个保修记录，千万不要让TPH察觉到问题。具体的内容我已经写在笔记里了。
+（虽然是全球最大的主板厂商，但他们的安防真是....）
+</body>
+    <attachments>
+      <note title="笔记">
+	  在TPH售后黑名单服务器删除保修记录
+	  要删除的用户名是：X-Wind
+	  主板为：V780-PRO-W-NEO
+	  不要更改其他保修记录
+	  </note>
+	  <link comp="TPHW" />
+    </attachments>
+  </email>
+</mission>

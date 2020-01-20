@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CoelTracker" name="Coel 追踪器" security="4" icon="chip"  allowsDefaultBootModule="false" type="1" >
+
+
+<ports>21, 22, 25, 80</ports>
+
+<portsForCrack val="0" />
+
+<dlink target="Tracker" />
+<dlink target="CoelGateway" />
+
+</Computer>

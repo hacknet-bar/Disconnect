@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDM" 
+          name="EastData邮箱服务器" 
+          allowsDefaultBootModule="true"
+          ip="31.25.697.281"
+          security="2"
+		  icon="dlcpc1"
+          type="1" > 
+
+  <adminPass pass="45t45J893y790" />
+    <portsForCrack val="99999" />
+ <ports>22, 21, 25, 443, 554</ports>
+  <trace time="40" />
+
+
+   <portRemap>22=1024,6881=6882</portRemap>
+
+
+  
+  <account username="Jesses" password="ooJessesoo" type="MAIL" />
+  
+  <account username="Alex" password="G67834H" type="MAIL" />
+  
+  
+  <mailServer name="EastData 邮箱" color="234,156,25" generateJunk="true">
+     
+	 <email recipient="Jesses" sender="Alex" subject="重置密码">
+对了如果你要重置工程项目服务器的话，登录我的邮箱账号：Alex G67834H
+     </email>
+	 
+	 
+	 
+	 
+	 <email recipient="Jesses" sender="Alex" subject="密码问题">
+以后不要把你的密码发到IRC，这是为了安全。
+    </email>
+	
+
+
+  </mailServer>  
+  
+</Computer>

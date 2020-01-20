@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="x-sky" 
+          name="X-SKY 电脑" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 6881</ports>
+  <proxy time="1" />
+  <firewall level="11" solution="HAHAHAHA" additionalTime="0.5"/>
+  <trace time="70" />
+  
+  <CustomConnectDisplayDaemon />
+
+   <file path="home" name="Hack.txt">你能信吗？？？我刚刚黑了一个人！！！！！</file>
+  
+</Computer>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="KaguyaGateway" name="Kaguya网关" security="4" ip="54.183.231.31" icon="DLCServer" allowsDefaultBootModule="false" type="4" >
+
+
+<portsForCrack val="10" />
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554</ports>
+  <firewall level="8" solution="u47hOhUg" additionalTime="1.0"/>
+  <proxy time="2" />
+  <trace time="80" />
+ 
+
+
+
+</Computer>

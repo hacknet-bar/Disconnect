@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TPHWL4" 
+          name="TPH 白名单身份验证器4" 
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881</ports>
+  <trace time="70" />
+  <portRemap>21=8080,22=1024,6881=6882</portRemap>
+<file path="home" name="Whitelist4.txt">46147</file>
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  <WhitelistAuthenticatorDaemon Remote="TPHWL3" />
+
+  <dlink target="TPHWL5" />
+</Computer>

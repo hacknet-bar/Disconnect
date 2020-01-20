@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM6" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/6END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="Star-营救" reqs="DHSM6" >
+    解救Tom
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>营救</subject>
+    <body>
+	
+</body>
+    <attachments>
+      <note title="笔记">
+	
+	  </note>
+	  <link comp="" />
+    </attachments>
+  </email>
+</mission>

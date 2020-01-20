@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ED1.2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+</goals>
+
+  <nextMission>NONE</nextMission>
+  <posting title="EastData -D3F4ult" reqs="ED1.2" >
+探索EastData的服务器
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>探索EastData的服务器</subject>
+    <body>
+具体内容我已经在IRC说过了，你要做的就是探索服务器并且获得EastData工程项目服务器的管理员
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="EDY" />
+	  <link comp="EDW" />
+    </attachments>
+  </email>
+</mission>

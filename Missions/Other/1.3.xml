@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM1.3" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="获取破解器" reqs="DHSM1.3" >
+从LOA公司想办法获得破解器。Tom，这个任务就交给你了。
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>获取破解器</subject>
+    <body>
+
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	 
+    </attachments>
+  </email>
+</mission>

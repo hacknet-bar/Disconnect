@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PAWeb" name="PacificAir 网络服务器" security="5" ip="184.341.45.235" type="4" icon="PacificAir">
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 554, 192</ports>
+  <portRemap>22=340,192=183</portRemap>
+  <admin type="progress"/>
+ <LogoCustomConnectDisplayDaemon logo="PacificAir/PacificAir_Big.png" title="PacificAir/PacificAirTitle.png" overdrawLogo="true" buttonAlignment="right" />
+<addWebServer name="PacificAir" url="web\PacificAir\PacificAir.html" />
+  <dlink target="PANH" />
+</Computer>

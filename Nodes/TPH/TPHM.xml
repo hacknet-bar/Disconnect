@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TPHM" 
+          name="TPH邮箱服务器" 
+          allowsDefaultBootModule="true"
+          security="2"
+		  icon="dlcpc1"
+          type="1" > 
+
+  <adminPass pass="45t45J893y790" />
+    <portsForCrack val="99999" />
+ <ports>22, 21, 25, 443, 554</ports>
+  <trace time="40" />
+
+
+   <portRemap>22=1024,6881=6882</portRemap>
+
+  
+  
+  <mailServer name="TPH 邮箱" color="234,156,25" generateJunk="true">
+     
+	
+
+
+  </mailServer>  
+  
+</Computer>

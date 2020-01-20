@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Peter" 
+          name="Peter 笔记本" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCLaptop" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 6881, 25, 554</ports>
+  <trace time="70" />
+  
+
+
+   <file path="bin/RTSP" name="info.txt">
+   要知道...
+   554端口是公司里最常用的端口
+   正是因为它在被破解时能被屏蔽
+   所以这种端口的安全性非常高
+   不过
+   我一直背着公司研究破解器...
+   这个破解器...
+   专攻554端口
+   我之前也一直在研究如何破解554端口
+   但都没有成功
+   但现在不一样了
+   我延长了它的破解时间
+   或者说我没有延长它令端口饱和的时间
+   我只是延长了它的动画
+   其实它在后台进行进程保护
+   我还没有去尝试破解554端口
+   但从理论上它可以破解RTSP的任何端口，不管这个端口开放了多少流量
+   但我开发这个破解器的原因其实不是破解公司的端口
+   而是破解公司机密计划的端口
+   如果
+   有一天有某个黑客组织打算将EastData所干的事公布
+   我希望能贡献上一份力量
+                         
+						 
+						 -P
+   </file>
+   
+   <encryptedFile path="bin/RTSP" name="RTSPCrack.dec" extension=".exe" ip="Unknown" header="Unknown" pass="BYP8h6j90">#RTSP_EXE#</encryptedFile>
+   
+   <file path="bin/RTSP" name="RTSPCrack.zip">#BINARY#</file>
+  
+</Computer>

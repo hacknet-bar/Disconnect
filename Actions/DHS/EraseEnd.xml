@@ -1,0 +1,27 @@
+<ConditionalActions>
+  <Instantly>
+<AddConditionalActions Filepath="Actions/EraseEnd/1.xml" DelayHost="Cheat" Delay="0.5" />
+<AddConditionalActions Filepath="Actions/EraseEnd/5.xml" DelayHost="Cheat" Delay="2.5" />
+<AddConditionalActions Filepath="Actions/EraseEnd/6.xml" DelayHost="Cheat" Delay="3.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/7.xml" DelayHost="Cheat" Delay="11.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/8.xml" DelayHost="Cheat" Delay="20.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/9.xml" DelayHost="Cheat" Delay="30.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/10.xml" DelayHost="Cheat" Delay="40.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/11.xml" DelayHost="Cheat" Delay="50.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/12.xml" DelayHost="Cheat" Delay="60.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/13.xml" DelayHost="Cheat" Delay="70.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/14.xml" DelayHost="Cheat" Delay="80.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/15.xml" DelayHost="Cheat" Delay="100.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/16.xml" DelayHost="Cheat" Delay="110.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/17.xml" DelayHost="Cheat" Delay="130.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/18.xml" DelayHost="Cheat" Delay="150.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/19.xml" DelayHost="Cheat" Delay="160.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/20.xml" DelayHost="Cheat" Delay="170.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/21.xml" DelayHost="Cheat" Delay="180.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/22.xml" DelayHost="Cheat" Delay="200.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/23.xml" DelayHost="Cheat" Delay="210.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/24.xml" DelayHost="Cheat" Delay="230.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/25.xml" DelayHost="Cheat" Delay="240.0" />
+<AddConditionalActions Filepath="Actions/EraseEnd/26.xml" DelayHost="Cheat" Delay="242.0" />
+  </Instantly>
+</ConditionalActions>

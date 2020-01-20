@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDP" 
+          name="EastData 工程项目服务器" 
+          security="5"
+		  ip="31.25.596.363"
+          allowsDefaultBootModule="true"
+          icon="dlcServer" 
+          type="1" > 
+
+  <portsForCrack val="9999999" />
+  <ports>22, 21, 25, 6881, 554</ports>
+  <trace time="40" />
+  <adminPass pass="74hjfgp" />
+  <portRemap>21=8080,22=1024,6881=6882</portRemap>
+  
+    <WhitelistAuthenticatorDaemon Remote="EDWL" />
+  
+  <DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="85,0,150" AdminEmailAccount="Alex@eastdata.com" AdminEmailHostID="EDM" Name="EastData 工程项目库">
+
+    <GitCommitEntry>
+      <EntryNumber>7815</EntryNumber>
+      <ChangedFiles>
+        <String>EastData 超级之星 SATA 系列</String>
+      </ChangedFiles>
+      <Message>跨世纪产品 尚未植入 特点：震动保护、双级驱动技术  技术规格：接口：SATA 24Gb/s 外形尺寸：3.5英寸 RPM：7200</Message>
+      <UserName>Peter</UserName>
+      <SourceIP>无法识别</SourceIP>
+    </GitCommitEntry>
+    
+    <GitCommitEntry>
+      <EntryNumber>4995885</EntryNumber>
+      <ChangedFiles>
+        <String>====ROOTKIT====</String>
+      </ChangedFiles>
+      <Message>=====您的用户权限不足=====</Message>
+      <UserName>XXXXX</UserName>
+      <SourceIP>XXX.XX.XX.XXX</SourceIP>
+    </GitCommitEntry>
+	
+	
+	<GitCommitEntry>
+      <EntryNumber>81</EntryNumber>
+      <ChangedFiles>
+        <String>EastData 云 加强版 系列 QU7400</String>
+      </ChangedFiles>
+      <Message>搭配超级之星 已植入 容量 16TB 24TB 32TB 40TB 特点：传输所有内容、存储空间充足、一键复制、数据保护 技术规格：容量：16TB-40TB 接口：万兆位以太网端口x8</Message>
+      <UserName>Peter</UserName>
+      <SourceIP>无法识别</SourceIP>
+    </GitCommitEntry>
+	<GitCommitEntry>
+      <EntryNumber>7616</EntryNumber>
+      <ChangedFiles>
+        <String>EastData 白 NVME SSD 8102</String>
+      </ChangedFiles>
+      <Message>销量高 已植入 EastData 白 NVME SSD 8102 容量 250GB 500GB 1TB 特点：高读写、防过载保护、创新存储结构、兼容性高、可视化数据 技术规格：容量：250GB、500GB、1TB 接口：M.2 NVME协议 规格：M.2 2280</Message>
+      <UserName>Peter</UserName>
+      <SourceIP>无法识别</SourceIP>
+    </GitCommitEntry>
+	
+	
+	
+  </DatabaseDaemon>
+
+
+
+
+  
+</Computer>

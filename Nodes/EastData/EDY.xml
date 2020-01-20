@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDY" 
+          name="EastData 预售服务器" 
+          security="4"
+          allowsDefaultBootModule="false"
+		  ip="1.2.3.4"
+          icon="dlcpc1" 
+          type="1" > 
+
+ <portsForCrack val="99999" />
+  <ports>22, 21, 25, 6881</ports>
+  <trace time="1" />
+  <adminPass pass="G678yu" />
+
+ 
+  <variableMissionListingServer name="EastData 预售服务器" iconPath="EastData/Logo.png" articleFolderPath="EastData/EDY" color="120,200,2" assigner="true" public="true" title="EastData 预售服务器"/>
+
+<dlink target="EDZ" />
+  
+</Computer>

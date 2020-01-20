@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="worm1" 
+          name="Ryna 作战基地" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 6881</ports>
+  <proxy time="1" />
+  <firewall level="10" solution="SASSERWORM" additionalTime="0.4"/>
+  <trace time="80" />
+  
+  <CustomConnectDisplayDaemon />
+
+   <file path="Worm" name="Sasser_Worm.exe">#BINARYSMALL#</file>
+   <file path="Worm" name="Sasser_Worm.zip">#BINARY#</file>
+   <file path="Worm" name="Sasser_Worm.c">#BINARYSMALL#</file>
+   
+   <dlink target="worm2" />
+  
+</Computer>

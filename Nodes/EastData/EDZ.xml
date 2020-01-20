@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDZ" 
+          name="EastData 中心服务器" 
+          security="3"
+		  ip="31.25.169.286"
+          allowsDefaultBootModule="true"
+          icon="dlcServer" 
+          type="1" > 
+		  
+
+    <portsForCrack val="3" />
+  <ports>22, 21, 25, 443</ports>
+  <trace time="90" />
+  <WhitelistAuthenticatorDaemon Remote="EDWL" />
+  <WhitelistAuthenticatorDaemon Remote="EDWL2" />
+<CustomConnectDisplayDaemon />
+   <portRemap>22=1024,6881=6882</portRemap>
+  
+  <dlink target="EDI" />
+  <dlink target="EDM" />
+  <dlink target="EDP" />
+  <dlink target="EDG" />
+  
+</Computer>

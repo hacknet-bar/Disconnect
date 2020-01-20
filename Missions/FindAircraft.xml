@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+<goal type="fileupload" target="PA3451FDR" file="PA3451FlightData.fdr" path="home" destTarget="PLDrop" destPath="Investigations/Uploads"/>
+<goal type="fileupload" target="PA3451CVR" file="PA3451VoiceData.cvr" path="home" destTarget="PLDrop" destPath="Investigations/Uploads"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/FAEND.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="Find Aircraft - #PLAYERNAME#" reqs="DHSM4" >
+  寻找飞机的事故原因并提交证据，为了Pot
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>寻找飞机</subject>
+    <body>
+        ......相信你也看到了...Pot乘坐的飞机已经坠毁...刚刚Psylance和PacificAir向我们求助，不，准确来说不是求助，而是被*要求*协助调查
+	我们现在只需要找到PA3451的黑匣子（FDR飞行数据记录仪及CVR机舱话音记录仪）并将记录文件上传至Psylance事故调查服务器就可以了
+	即使这架飞机的FDR与CVR是联网的，但没有线下设备，你还是无法找到CVR与FDR，所以，你需要进入Psylance的网络里，找到坠毁地点的信标（坠毁地点已写入笔记），扫描信标，你应该就可以找到FDR与CVR了
+	由于官方没有提供给我们关键服务器的密码（出于保密目的），我只找到了他们的事故调查服务器，其他我无能为力，你只能硬破解Psylance和PacificAir的服务器网络
+	Good luck
+	-P
+    </body>
+    <attachments>
+	<note title="笔记">
+	渗透Psylance和PacificAir的服务器网络
+	找到三号信标
+	通过信标找到CVR与FDR
+	将记录文件上传至Psylance事故调查服务器
+	  </note>
+	  <link comp="PLDrop" />
+	  <link comp="PAWeb" />
+    </attachments>
+  </email>
+</mission>

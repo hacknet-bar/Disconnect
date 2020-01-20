@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDG" 
+          name="EastData 员工服务器" 
+          security="3"
+		  ip="31.25.716.596"
+          allowsDefaultBootModule="false"
+          icon="Psylance" 
+          type="1" > 
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25, 443</ports>
+  <trace time="90" />
+  <adminPass pass="28oO00oOO00O0" />
+  <CustomConnectDisplayDaemon />
+
+   <portRemap>22=1024,6881=6882</portRemap>
+    <file path="home" name="须知.txt">
+    为了安全，请不要把密码写在前端服务器
+	
+	                    -A
+  </file>
+   <file path="home" name="员工列表.txt">
+    Monster    伟大的CEO
+	HY         隔壁Star的员工 负责安防 看起来很神秘
+	Peter      员工 唯一一个会干事的人
+	Alex       明明是IT部门却不会修电脑
+	Jesses     一言不合就泄密
+	
+	                    -M
+  </file>
+  
+  <dlink target="Alex" />
+  <dlink target="Peter" />
+  <dlink target="Jesses" />
+  
+</Computer>

@@ -1,0 +1,22 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3">...</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="6">....</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="10">...</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="12">...我想...我们不能袖手旁观下去了</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="15">嘿...你们在探索Psylance时有没有看到Psylance和TPH的交互中心？</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="17">是的...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="20">...</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="22">为什么这两家公司会有联系？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="23">...等等，你们记不记得上次探索TPH的服务器？在保修记录中，有一条是关于ROOTKIT的...</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25">我想，我们有必要调查TPH了</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="28">@channel 干活了</AddIRCMessage>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/4.1.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+	<AddMissionToHubServer MissionFilepath="Missions/4.xml" TargetComp="DCDHS" />
+	<AddMissionToHubServer MissionFilepath="Missions/Other/4.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/4.4.xml" TargetComp="DCDHS" AssignmentTag="Tom"/>
+	<AddConditionalActions Filepath="Actions/DHS/playerMemories.xml" DelayHost="Cheat" Delay="13"/>
+  </Instantly>
+
+</ConditionalActions>

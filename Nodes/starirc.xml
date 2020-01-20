@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="starirc" 
+          name="Star IRC" 
+          ip="99.23.48.43"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="dlcpc2" 
+          type="1" > 
+
+  <portsForCrack val="99999999" />
+  <ports>22, 21</ports>
+    <IRCDaemon themeColor="0,0,255" name="Star IRC" needsLogin="false">
+    <user name="James" color="255,50,215"/>
+    <user name="HY" color="43,162,82"/>
+    
+	<post user="James">对了</post>
+	<post user="James">关于跟ED合作的事</post>
+	<post user="James">你考虑得怎么样了？</post>
+	<post user="HY">...还能怎么样...我只有一个选择..</post>
+	<post user="James">哈哈哈</post>
+	<post user="James">我内部服务器去看看合同好没好</post>
+    <post user="James">等等</post>
+    <post user="James">我把内部服务器的密码忘勒！</post>
+    <post user="HY">....拿你没办法...</post>
+	<post user="HY">ijoewf</post>
+	<post user="James">啊谢谢</post>
+	<post user="HY">别谢谢了赶紧去吧</post>
+  </IRCDaemon>
+
+
+  
+</Computer>

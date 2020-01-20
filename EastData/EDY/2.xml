@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="EDY02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="EastData 云 加强版 系列 QU7400">
+EastData 云 加强版 系列 QU7400
+
+         容量 
+         16TB 
+         24TB 
+         32TB 
+         40TB 
+		 
+特点：传输所有内容、存储空间充足、一键复制、数据保护
+
+技术规格：容量：16TB-40TB
+           接口：万兆位以太网端口x8
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

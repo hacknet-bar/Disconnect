@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PLB"
+          name="Psylance 信标中心"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+		  <LogoCustomConnectDisplayDaemon logo="Psylance/Psylance_Big.png" title="Psylance/PsylanceTitle.png" overdrawLogo="true" buttonAlignment="right" />
+  <ports>22, 21, 6881, 443, 192, 554</ports>
+  <portsForCrack val="6" />
+  <trace time="85" />
+  <dlink target="Beacon1" />
+  <dlink target="Beacon2" />
+  <dlink target="Beacon3" />
+  <dlink target="Beacon4" />
+  <dlink target="Beacon5" />
+  <dlink target="Beacon6" />
+  <dlink target="Beacon7" />
+</Computer>

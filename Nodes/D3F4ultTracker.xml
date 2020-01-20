@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="D3F4ultTracker" name="D3F4ult 追踪器" security="4" icon="chip"  allowsDefaultBootModule="false" type="1" >
+
+
+<ports>21, 22, 25, 80</ports>
+
+<portsForCrack val="0" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="Themes/AbstractBlurryTheme.xml"/>
+<dlink target="Tracker" />
+<dlink target="D3F4ultWorkstation" />
+
+
+</Computer>

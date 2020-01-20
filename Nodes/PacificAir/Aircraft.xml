@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dair_crash" name="PA_737_MAX_8_3451 飞控电脑" security="5" type="4" icon="PacificAir" ip="209.15.13.134">
+  
+  <portsForCrack val="2" />
+  <ports>22, 192</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+   
+<LogoCustomConnectDisplayDaemon logo="PacificAir/PacificAir_Big.png" title="PacificAir/PacificAirTitle.png" overdrawLogo="true" buttonAlignment="right" />
+
+
+  <AircraftDaemon Name="太平洋航空 737-MAX-8 PA3451" OriginX="0.6672" OriginY="0.4264" DestX="0.4073" DestY="0.4264" />
+  
+</Computer>

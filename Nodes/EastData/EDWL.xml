@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDWL" 
+          name="EastData 白名单身份验证器" 
+          security="4"
+		  ip="31.25.246.161"
+          allowsDefaultBootModule="true"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881</ports>
+  <trace time="100" />
+  <adminPass pass="745bhcfug68Jp" />
+  <portRemap>21=8080,22=1024,6881=6882</portRemap>
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+  <WhitelistAuthenticatorDaemon Remote="EDWL2" />
+
+
+
+</Computer>

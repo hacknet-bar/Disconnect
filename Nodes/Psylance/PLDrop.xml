@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PLDrop"
+          name="Psylance 事故调查服务器"
+		  ip="67.204.148.2533"
+          security="6"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="1" >
+
+<uploadServerDaemon name="Psylance 事故调查" folder="Investigations" needsAuth="true" color="67,204,148" hasReturnViewButton="false"/>
+  <ports>22, 21, 6881, 443, 192</ports>
+  <portsForCrack val="5" />
+  <trace time="80" />
+  <LogoCustomConnectDisplayDaemon logo="Psylance/Psylance_Big.png" title="Psylance/PsylanceTitle.png" overdrawLogo="true" buttonAlignment="right" />
+<file path="Investigations/Uploads/PA0022" name="WhitelistGlitches.zip">#BINARY#</file>
+<file path="Investigations/Uploads/PA0022" name="PA0022Log.zip">#BINARY#</file>
+<file path="Investigations/Uploads/PA0022" name="PAATCSLLog.zip">#BINARY#</file>
+<file path="Investigations" name="Server_Message.txt">===注意：请使用管理员账户上传文件===
+Admin：最近收到部分员工的反馈，由于服务器不稳定，部分操作系统会将文件上传至根目录，在此说明：请将调查文件上传至Investigations/Uploads目录下！</file>
+<encryptedFile path="Investigations/Uploads/PA0022" name="PA_0022_Incident.dec" ip="209.68.41.129" header="Psylance cyber security internal investigations division inc.">
+Psylance网络安全公司 - 内部调查部。
+---------------------------------------
+
+太平洋航空的航班PA_0022在飞行途中经历了飞行控制错误，引发严重的失速并险些坠毁。在致命错误发生的极短时间之前飞行员取回了飞机的控制并成功使飞机恢复到了安全状态。
+根据飞机着陆后对其进行的彻底检查，并未在飞机的硬件上发现任何问题，而软件和固件似乎也完好无损。一份软件的完整拷贝被送至Psylance以调查是否有任何错误。
+
+在没有任何东西马上消失或被篡改的情况下，一次全面的调查揭示了有关此事件的系统日志文件令人意外的*缺失*。 这里的意思是发生了篡改，并进行了一次全面的日志扫描。
+谨慎起见，针对这一情况展开了一次全面调查，并对现有的服务器进行了一次全面的扫描。
+
+发现了一个异常——在Pacific_ATC_Skylink上发现了一份来自未识别IP的断开日志。离开的IP的地址是208.73.210.214
+官方痕迹引领我们找到了一个名叫“Coel”的黑客的网关，我们相信他就是该为此次事故负责的人。
+
+我建议对此事展开一次全面调查。Psylance致力于您的服务器的安保工作，并会加倍努力来确保您的网络中的所有系统的安全。
+  </encryptedFile>
+</Computer>

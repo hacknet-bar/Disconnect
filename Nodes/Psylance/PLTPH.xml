@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PLTPH"
+          name="TPH_Psylance 交互连接中心"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="Psylance"
+          type="1" >
+		  <LogoCustomConnectDisplayDaemon logo="Psylance/Psylance_Big.png" title="Psylance/PsylanceTitle.png" overdrawLogo="true" buttonAlignment="right" />
+  <ports>22, 21, 6881, 443, 192, 554</ports>
+   <portRemap>22=340,6881=6882</portRemap>
+  <portsForCrack val="6" />
+  <trace time="85" />
+  <dlink target="TPHN" />
+</Computer>

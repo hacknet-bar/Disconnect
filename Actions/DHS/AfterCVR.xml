@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+ 	<RunFunction FunctionName="playCustomSong:Music/PA3451CVR.ogg" />
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM4" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/4END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="再一次 -Tom" reqs="DHSM4" >
+    调查TPH与Star的联系
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>再一次</subject>
+    <body>
+	
+</body>
+    <attachments>
+    
+    </attachments>
+  </email>
+</mission>

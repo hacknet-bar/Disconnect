@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TPHS" 
+          name="TPH 售后黑名单服务器" 
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="dlcServer" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881, 554, 192</ports>
+  <trace time="70" />
+  <adminPass pass="FDGH3REW" />
+  <portRemap>21=8080,22=1024,6881=6882,192=181</portRemap>
+  
+    <WhitelistAuthenticatorDaemon Remote="TPHWLF" />
+  
+  <DatabaseDaemon Permissions="private" DataType="GitCommitEntry" Foldername="database" Color="85,0,150" AdminEmailAccount="Lisa@TPH.com" AdminEmailHostID="TPHM" Name="TPH 售后黑名单服务器">
+
+    <GitCommitEntry>
+      <EntryNumber>7815</EntryNumber>
+      <ChangedFiles>
+        <String>DADA</String>
+      </ChangedFiles>
+      <Message>DADA V780-PRO-W-NEO 无法开机 在此记录中植入起到了作用</Message>
+      <UserName>DADA</UserName>
+      <SourceIP>无法识别</SourceIP>
+    </GitCommitEntry>
+    
+    <GitCommitEntry>
+      <EntryNumber>8431</EntryNumber>
+      <ChangedFiles>
+        <String>X-Wind</String>
+      </ChangedFiles>
+      <Message>X-Wind V780-PRO-W-NEO 无法开机 在此记录中植入起到了作用</Message>
+      <UserName>X-Wind</UserName>
+      <SourceIP>无法识别</SourceIP>
+    </GitCommitEntry>
+	
+	
+  </DatabaseDaemon>
+
+
+
+
+  
+</Computer>

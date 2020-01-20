@@ -1,0 +1,12 @@
+<ConditionalActions>
+  
+  <Instantly>
+<AddConditionalActions Filepath="Actions/Memories/1.xml" DelayHost="Cheat" Delay="0.5" />
+<AddConditionalActions Filepath="Actions/Memories/2.xml" DelayHost="Cheat" Delay="4" />
+<AddConditionalActions Filepath="Actions/Memories/3.xml" DelayHost="Cheat" Delay="7" />
+<AddConditionalActions Filepath="Actions/Memories/4.xml" DelayHost="Cheat" Delay="10" />
+<AddConditionalActions Filepath="Actions/Memories/5.xml" DelayHost="Cheat" Delay="13" />
+	
+  </Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM2.2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="解密" reqs="DHSM2.2" >
+#PLAYERNAME#下载的关于Power的文件内容还是个谜，D3F4ult，你知道该怎么办。
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>解密</subject>
+    <body>
+
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	 
+    </attachments>
+  </email>
+</mission>

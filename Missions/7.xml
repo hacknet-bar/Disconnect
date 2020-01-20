@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM7" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/7END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="Star-镜面" reqs="DHSM7" >
+    刺杀一位Star激进方关键成员
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>镜面</subject>
+    <body>
+
+</body>
+    <attachments>
+      <note title="笔记">
+
+	  </note>
+	  <link comp="" />
+    </attachments>
+  </email>
+</mission>

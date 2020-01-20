@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Repair1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="fileupload" target="CoelGateway" file="x-server.sys" path="sys" destTarget="DCDrop" destPath="sys"/>
+	<goal type="fileupload" target="CoelGateway" file="os-config.sys" path="sys" destTarget="DCDrop" destPath="sys"/>
+	<goal type="fileupload" target="CoelGateway" file="bootcfg.dll" path="sys" destTarget="DCDrop" destPath="sys"/>
+	<goal type="fileupload" target="CoelGateway" file="netcfgx.dll" path="sys" destTarget="DCDrop" destPath="sys"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/Repair1end.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="修复系统 - Coel" reqs="Repair1" >
+    帮忙修复Coel的网关
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>修复系统 - Coel</subject>
+    <body>
+	在HY攻击我们之后，我与Coel他们失去了联系，但我只有Coel的网关IP，所以你只能去修复Coel的网关了
+你只要把在Drop共享服务器sys文件夹下的系统文件上传到Coel的网关里应该就可以了（你也可以在修复时获取一些你没有的软件）
+我先去修复Tracker了
+-P
+</body>
+    <attachments>
+
+	  <link comp="CoelGateway" />
+    </attachments>
+  </email>
+</mission>

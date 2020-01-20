@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="EDY03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="EastData 白 NVME SSD 8102">
+EastData 白 NVME SSD 8102
+
+         容量
+         250GB 
+         500GB
+         1TB
+
+		 
+特点：高读写、防过载保护、创新存储结构、兼容性高、可视化数据
+
+技术规格：容量：250GB、500GB、1TB
+           接口：M.2 NVME协议
+		   规格：M.2 2280
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

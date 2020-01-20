@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="clearfolder" target="x-sky" path="sys"/>
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/2END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="删除系统文件" reqs="DHSM1" >
+删除一个脚本小子的系统文件
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>删除系统文件</subject>
+    <body>
+我们很烦这个脚本小子，他攻击过我们的服务器。我需要你删除他的系统文件。
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="x-sky" />
+    </attachments>
+  </email>
+</mission>

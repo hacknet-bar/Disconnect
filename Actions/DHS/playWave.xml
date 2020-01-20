@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+	<RunFunction FunctionName="playCustomSong:Music/EraseEnd/Kingsman The Secret Service-Wave.ogg" />
+  </Instantly>
+
+</ConditionalActions>

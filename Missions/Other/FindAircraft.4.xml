@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Find Aircraft - D3F4ult" reqs="DHSM4" >
+  寻找飞机的事故原因并提交证据，就当是为了Pot
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>寻找飞机</subject>
+    <body>
+
+</body>
+    <attachments>
+	  <link comp="" />
+    </attachments>
+  </email>
+</mission>

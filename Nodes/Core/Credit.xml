@@ -1,0 +1,98 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Credit" 
+          name="Disconnect Credit" 
+		  ip="985.83.3.214"
+          allowsDefaultBootModule="true"
+          icon="chip" 
+          type="1" > 
+
+  <portsForCrack val="0" />
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
+ <file path="home" name="CreditsData.txt"> 
+  ----Disconnect----
+
+^作者：
+
+Pitiedwzr
+
+^剧情：
+
+Pitiedwzr
+
+^灵感：
+AqurisindX
+Kingsman:The Secret Service
+HITMAN6
+WORSE OR BEST
+
+^音乐：
+
+Hacknet OST
+Hacknet 迷宫 OST
+Kingsman:The Secret Service - Wave
+Frank Klepacki - 200 Meters
+Frank Klepacki - Blow it Up
+Frank Klepacki - Burn
+Frank Klepacki - c and c_in_the_house
+Frank Klepacki - Calm Think
+Frank Klepacki - Credits
+Frank Klepacki - Destroy
+Frank Klepacki - Eagle Hunter
+Frank Klepacki - Fortification
+Frank Klepacki - Grinder
+Frank Klepacki - HM2
+Frank Klepacki - Industrofunk
+Frank Klepacki - jank
+Frank Klepacki - Militant Force 2
+Frank Klepacki - Motorized
+Frank Klepacki - Power
+Frank Klepacki - probing
+Frank Klepacki - ready_the_army
+Frank Klepacki - Tension
+Frank Klepacki - in Deep
+Speeder-Mental Omega-Chitzkalla
+Speeder-Mental Omega-Serenity
+Speeder-Mental Omega-Viratia
+
+^X-server：
+Hacknet + Labyrinths Backgrounds
+Example - https://www.wallpaperup.com/455539/anonymous_mask_sadic_dark_anarchy_hacker_hacking_vendetta.html
+Yuri - IntroExtension
+Secondary - IntroExtension
+Weeds - IntroExtension
+
+^字体：
+LCD
+Days
+微软正黑体
+Papyrus Std
+Lindsey
+Ink Free
+FreshhandDB Normal
+
+^测试者：
+大大
+
+^特别感谢：
+AqurisindX
+X-Wind
+大大
+Kang_zi
+xiao_yong
+我的所有朋友们
+
+以及...你..#PLAYERNAME#
+
+
+^Disconnect
+
+
+^BY Pitiedwzr
+
+
+</file>
+  
+
+<CreditsDaemon Title="Disconnect Project" ButtonText="禁用代理监视" ConditionalActionSetToRunOnButtonPressPath="Actions/Credit.xml"/>
+   
+</Computer>

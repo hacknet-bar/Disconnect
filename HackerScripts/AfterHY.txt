@@ -1,0 +1,23 @@
+config [TARGET_COMP] [SOURCE_COMP] 2 $#%#$
+delay 2 $#%#$
+writel ====Tracker Running...==== $#%#$
+delay 2 $#%#$
+writel HEY $#%#$
+delay 2 $#%#$
+writel ARE YOU OK $#%#$
+delay 2 $#%#$
+writel WELL,THATS LOOKS BAD $#%#$
+delay 2 $#%#$
+writel YOU LOST YOUR X-SERVER.SYS $#%#$
+delay 2 $#%#$
+writel YOUR COMPUTER HAS A TRACKER,YOU CAN SCAN IT AND DOWNLOAD X-SERVER.SYS FROM THERE $#%#$
+delay 2 $#%#$
+writel SORRY $#%#$
+delay 2 $#%#$
+writel I MUST REPAIR CORE $#%#$
+delay 2 $#%#$
+writel GOOD LUCK $#%#$
+delay 2 $#%#$
+writel -P $#%#$
+delay 2 $#%#$
+

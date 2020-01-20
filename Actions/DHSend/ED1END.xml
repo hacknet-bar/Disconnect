@@ -1,0 +1,35 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-calm think.ogg" FunctionValue="1" />
+    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="4.0">!!!</AddIRCMessage>
+    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="6.0">啊我卡在重置管理员密码上了......</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="8.0">@#PLAYERNAME# 做得非常好！</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="10.0">嗯....</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="12.0">啊,我们还是太慢了...</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="14.0">?</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="16.0">从他们的工程数据库来看...他们已经将许多主流产品植入了不知名的东西....</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="18.0">等等....为什么RootKit项目无法查看？！</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="20.0">我也不知道为什么...看起来RootKit项目是他们的机密...</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="22.0">诶？这不是管理员账户吗？</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="24.0">我们探索的还是不够深...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="26.0">对了我想起个事</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="28.0">你们有没有看到ED有个员工叫Peter？</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="30.0">嗯</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="32.0">我破解了他的笔记本，发现他在开发一种破解器，但那个破解器是加密的...</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="34.0">或许我们能说服他解密破解器？</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="36.0">嗯</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="38.0">这份工作就交给你了@Coel </AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="40.0">啊..好吧</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="42.0">那关于ED的服务器探索？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="44.0">我觉得先不要打草惊蛇比较好</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="46.0">恩，那就先不要再进行探索了</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="48.0">@D3F4ult 你先去清理一下ED的日志</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="50.0">-_-</AddIRCMessage>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/3.1.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+	<AddMissionToHubServer MissionFilepath="Missions/3.xml" TargetComp="DCDHS" />
+	<AddMissionToHubServer MissionFilepath="Missions/Other/3.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+	
+  </Instantly>
+
+</ConditionalActions>

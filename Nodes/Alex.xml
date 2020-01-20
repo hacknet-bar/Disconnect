@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Alex" 
+          name="Alex 网关" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 6881, 25, 443</ports>
+  <proxy time="1" />
+  <firewall level="11" solution="h437HJ7h" additionalTime="0.5"/>
+  <trace time="70" />
+  
+  <CustomConnectDisplayDaemon />
+
+   <file path="home" name="IRC.txt">为了防止我又把IRC密码忘了，所以我在这里写一下Alex 密码alex0918</file>
+  
+</Computer>

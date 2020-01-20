@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pot" 
+          name="Pot 作战基地" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="DLCPC2" 
+          type="1" > 
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 6881, 25</ports>
+  <proxy time="1" />
+  <firewall level="5" solution="123abc" additionalTime="0.3"/>
+  <trace time="70" />
+  
+  <CustomConnectDisplayDaemon />
+
+   <file path="bin" name="Sasser_Worm.exe">#BINARYSMALL#</file>
+   <file path="bin" name="S@T#Ov!RuNGgR.exe">#BINARY#</file>
+   
+   <dlink target="worm1" />
+  
+</Computer>

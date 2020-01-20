@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDWL2" 
+          name="EastData 白名单身份验证服务器" 
+          security="4"
+		  ip="31.25.573.246"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="1" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881</ports>
+  <trace time="100" />
+  <adminPass pass="75bhug8p" />
+  <portRemap>21=8080,22=1024,6881=6882</portRemap>
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" /> 
+
+
+
+   <file path="Whitelist" name="注意.txt">
+   这个服务器是为了保护身份验证器（31.25.246.161）而建设的（经过衡量这种方式更省钱）
+   请不要修改这个服务器的任何固件
+   这可能会影响安全
+                           -P
+  </file>
+  
+</Computer>

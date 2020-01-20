@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM1.2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="黑入并清除" reqs="DHSM1.2" >
+Tom在破解一个服务器时因为trace时间太短而断开了。Kaguya，你去帮忙解决这个问题。
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>黑入并清除</subject>
+    <body>
+
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	 
+    </attachments>
+  </email>
+</mission>

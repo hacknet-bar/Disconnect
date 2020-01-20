@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="KWL" 
+          name="Kaguya 白名单" 
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="dlcServer" 
+          type="1" > 
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 6881, 1433</ports>
+  <trace time="70" />
+  <portRemap>21=80,22=1024,6881=6883,1433=1322</portRemap>
+  <CustomConnectDisplayDaemon />
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true" />
+
+</Computer>

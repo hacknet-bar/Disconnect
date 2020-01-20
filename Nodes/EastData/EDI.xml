@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EDI" 
+          name="EastData IRC" 
+          security="3"
+          allowsDefaultBootModule="true"
+		  ip="31.25.8.43"
+          icon="Psylance" 
+          type="1" > 
+  <adminPass pass="EDIRCSAFE" />
+  <portsForCrack val="99999" />
+ <ports>22, 21, 25, 443, 554</ports>
+  <trace time="40" />
+
+
+   <portRemap>22=1024,6881=6882</portRemap>
+
+ <account username="Alex" password="alex0918" type="ADMIN" />
+  
+  <IRCDaemon themeColor="28,95,73" name="EastData IRC" needsLogin="true">
+    <user name="HY" color="80,0,241"/>
+    <user name="Peter" color="0,156,52"/>
+    <user name="Alex" color="142,0,234"/>
+	<user name="Jesses" color="0,255,0" />
+	<user name="Monster" color="255,0,0" />
+
+    <post user="Monster">我能不能把Jesses炒了？</post>
+    <post user="Alex">怎么了...</post>
+    <post user="Peter">一言不合就开除可还行</post>
+    <post user="Monster">不...事情是这样的</post>
+	<post user="Monster">Jesses的工作站坏了，让我帮他修，但我没时间，于是他在这个IRC里公开说了这句话：</post>
+    <post user="Monster">“@Monster 既然你没时间，那你就联网帮我修吧，我的工作站密码是FH347TY5”</post>
+    <post user="Alex">他这一句话，我们的安防就废了...</post>
+    <post user="Peter">大概没关系吧</post>
+    <post user="Peter">毕竟进入这个IRC是要登陆的</post>
+  </IRCDaemon>
+
+
+</Computer>

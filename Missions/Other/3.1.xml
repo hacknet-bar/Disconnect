@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM3.1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="日志" reqs="DHSM3.1" >
+确保无痕的删除EastData的日志
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>日志</subject>
+    <body>
+
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	 
+    </attachments>
+  </email>
+</mission>

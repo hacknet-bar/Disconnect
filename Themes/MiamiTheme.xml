@@ -1,0 +1,30 @@
+<CustomTheme>
+  <themeLayoutName>space</themeLayoutName>
+  <backgroundImagePath>DLC/Themes/Starfield2.png</backgroundImagePath>
+
+  <defaultHighlightColor>214,150,212</defaultHighlightColor>
+  <defaultTopBarColor>6,6,6,80</defaultTopBarColor> <!--105,62,102-->
+  <warningColor>255,0,0</warningColor>
+
+  <shellColor>35,194,191</shellColor>
+  <shellButtonColor>105,167,188</shellButtonColor>
+
+  <moduleColorSolidDefault>34,169,214</moduleColorSolidDefault>
+  <moduleColorStrong>13,95,112</moduleColorStrong>
+  <moduleColorBacking>6,6,6,160</moduleColorBacking>
+
+  <AFX_KeyboardMiddle>0,120,255</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>255,150,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>0,120,255</AFX_WordLogo>
+  <AFX_Other>0,100,255</AFX_Other>
+  <thisComputerNode>95,220,83</thisComputerNode>
+
+  <exeModuleTopBar>32,182,232,80</exeModuleTopBar>
+  <exeModuleTitleText>10,10,10,200</exeModuleTitleText>
+
+  <lockedColor>77,11,49,200</lockedColor>
+  <brightLockedColor>160,0,48</brightLockedColor>
+  <brightUnlockedColor>0,160,120</brightUnlockedColor>
+  <unlockedColor>0,92,69</unlockedColor>
+
+</CustomTheme>

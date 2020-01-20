@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Beacon5"
+          name="Psylance 五号信标"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="1" >
+  <LogoCustomConnectDisplayDaemon logo="Psylance/Psylance_Big.png" title="Psylance/PsylanceTitle.png" overdrawLogo="true" buttonAlignment="right" />
+  <ports>22, 21, 6881, 443, 192, 554</ports>
+  <portsForCrack val="5" />
+  <trace time="80" />
+
+</Computer>

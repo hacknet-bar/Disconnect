@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="aircraft2" name="PA_747_400_4965 飞控电脑" security="4" type="4" icon="PacificAir" ip="206.53.17.974">
+
+  <portsForCrack val="2" />
+  <ports>22, 192</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <LogoCustomConnectDisplayDaemon logo="PacificAir/PacificAir_Big.png" title="PacificAir/PacificAirTitle.png" overdrawLogo="true" buttonAlignment="right" />
+  <AircraftDaemon Name="太平洋航空 747-400 PA4965" OriginX="0.4304" OriginY="0.8339" DestX="0.6672" DestY="0.4264" />
+  
+</Computer>

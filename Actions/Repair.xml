@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+<OnConnect target="DCDHS" needsMissionComplete="false">
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="1.0">@#PLAYERNAME#？ 你来了吗？</AddIRCMessage>
+<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="3.0">嗯</AddIRCMessage>
+<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="5.0">你先去修复Coel的网关吧</AddIRCMessage>
+</OnConnect>
+
+</ConditionalActions>

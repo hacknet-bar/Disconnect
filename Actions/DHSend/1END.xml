@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <RunFunction FunctionName="setAssetServer:DCDrop" FunctionValue="1" />
+	<RunFunction FunctionName="setHubServer:DCDHS" />
+
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3.0">@Pot 怎么样？电脑好了吗</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="8.0">啊</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="10.0">我回来啦！！！</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="12.0">你要感谢@#PLAYERNAME# </AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="14.0">所以@Pot 的电脑到底怎么了</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="16.0">他的电脑中了蠕虫病毒</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="18.0">不过放心</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="20.0">攻击者大概以后再也不敢这样做了</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="22.0">你对他做了什么？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="24.0">没什么</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="26.0">我只是把他的所有系统文件删除了</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="29.0">啊</AddIRCMessage>
+	<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="30.0">*** 用户 Pot 上传了文件！ ***</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="32.5">是的，重要文件就是这个</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="34.5">新的破解器！</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="36.0">啊谢谢</AddIRCMessage>
+	<AddMissionToHubServer MissionFilepath="Missions/2.xml" TargetComp="DCDHS" />
+	<AddMissionToHubServer MissionFilepath="Missions/Other/2.2.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/2.3.xml" TargetComp="DCDHS" AssignmentTag="Tom"/>
+  </Instantly>
+
+</ConditionalActions>

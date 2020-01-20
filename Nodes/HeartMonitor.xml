@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="daircrash" name="PA_747_0022 Flight Computer" security="5" type="4" icon="PacificAir" ip="209.15.1.134">
+  
+  <portsForCrack val="2" />
+  <ports>22, 192</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+
+  <HeartMonitor patient="J_Stalvern"/>
+  
+</Computer>

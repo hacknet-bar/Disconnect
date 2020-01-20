@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="KB" 
+          name="Kaguya 备份" 
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="dlcServer" 
+          type="1" > 
+
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 6881, 1433</ports>
+  <trace time="70" />
+  <portRemap>21=80,22=1024,6881=6883,1433=1322</portRemap>
+    <WhitelistAuthenticatorDaemon Remote="KWL" />
+  <CustomConnectDisplayDaemon />
+  
+   <file path="log" name="@2_54.183.231.31_Disconnected">@2_54.183.231.31_Disconnected</file>
+</Computer>

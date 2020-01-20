@@ -1,0 +1,42 @@
+<ConditionalActions>
+  <Instantly>
+
+    <RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-Power.ogg" FunctionValue="1" />
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="8.0">***与D3F4ult工作站的连接正在进行中...***</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="11.0">***与Pot作战基地的连接正在进行中...***</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="15.0">***与Tom笔记本的连接正在进行中...***</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="17.0">啊 我终于回来了！</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="20.0">啧 我自己修复了半天还是没用</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="22.0">=。=</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="25.0">对了 D3F4ult呢..</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="27.0">我来了._.</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="30.0">@channel 欢迎归队！</AddIRCMessage>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="32.0">@channel 新破解器！</AddIRCMessage>
+	<AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="32.5">*** 用户 Pot 上传了文件！ ***</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="33.0">等一下...有一个重要的问题 Kaguya在哪儿？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="35.0">Kaguya.....</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="37.0">@Coel @#PLAYERNAME# 这就是我接下来要说的</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="40.0">在HY攻击我们之前，Kaguya退出了DHS</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="43.0">但实际上，我给团队的每个人的系统都安装了一个追踪器</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="47.0">我本来想查看追踪器来看看Kaguya出了什么问题...</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="50.0">但是...结果却是...没有</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="53.0">我无法在追踪器上找到*任何*关于Kaguya的痕迹 就像Kaguya从没出现过一样</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="57.0">所以...Kaguya很可能...背叛了我们？</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="60.0">......</AddIRCMessage>
+	<AddAsset FileName="@2_18.11.38.227_Disconnected" FileContents="@2 18.11.38.227 Disconnected" TargetComp="Tracker" TargetFolderpath="log" />
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="63.0">极有可能是这样的</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="66.0">@channel 所以我们接下来的任务就是调查Kaguya的去向</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="70.0">@Pot 你不需要跟他们一起调查</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="73.0">我需要你乘坐飞机到线下帮忙</AddIRCMessage>
+	<DeleteFile TargetComp="dair_crash" FilePath="FlightSystems" FileName="747FlightOps.dll" DelayHost="DCDHS" Delay="0.1"/>
+	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="76.0">收到</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="79.0">很好 去吧</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/DHS/KWL.xml" DelayHost="Cheat" Delay="70"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/K1.1.xml" TargetComp="DCDHS" AssignmentTag="Tom"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Kaguya/1.xml" TargetComp="DCDHS"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/K1.3.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/K1.4.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/pot.xml" TargetComp="DCDHS" AssignmentTag="Pot"/>
+  </Instantly>
+</ConditionalActions>

@@ -1,0 +1,13 @@
+<ConditionalActions>
+  
+<OnConnect target="playerComp" needsMissionComplete="false">
+
+<LaunchHackScript Filepath="HackerScripts/AfterHY.txt" 
+                  DelayHost="EDI" 
+                  Delay="1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+				  
+<AddMissionToHubServer MissionFilepath="Missions/Repair1.xml" TargetComp="DCDHS" />
+<AddConditionalActions Filepath="Actions/Repair.xml" DelayHost="Cheat" Delay="1"/>
+</OnConnect>
+
+</ConditionalActions>

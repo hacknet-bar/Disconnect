@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM2" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	<goal type="filedeletion" target="pot" file="Sasser_Worm.exe" path="bin"/>
+	<goal type="clearfolder" target="worm1" path="sys"/>
+	<goal type="clearfolder" target="worm1" path="worm"/>
+	<goal type="clearfolder" target="worm2" path="sys"/>
+	<goal type="clearfolder" target="worm2" path="worm"/>
+</goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/1END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="寻找根源" reqs="DHSM2" >
+帮忙修复电脑，并且寻找源头
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>寻找根源</subject>
+    <body>
+Pot的电脑出了点问题。他的电脑里现在有重要的东西，你要想办法修复电脑（如果可以，请不要删除其他文件），并找到源头,删除他的系统文件和工具。
+</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+	  <link comp="pot" />
+    </attachments>
+  </email>
+</mission>

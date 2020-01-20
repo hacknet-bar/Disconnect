@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="PA3451CVR" name="PA_737_MAX_8_3451 机舱话音记录仪" security="5" type="4" icon="Psylance" ip="72.36.7.96">
+  
+  <portsForCrack val="6" />
+  <ports>22, 192, 1433 ,554, 21, 6881</ports>
+  <firewall level="11" solution="MHgo6HU7htU" additionalTime="1.0"/>
+  <proxy time="1" />
+  <trace time="95" />
+   
+<LogoCustomConnectDisplayDaemon logo="Psylance/Psylance_Big.png" title="Psylance/PsylanceTitle.png" overdrawLogo="true" buttonAlignment="right" />
+
+<memoryDumpFile name="PA3451VoiceData.cvr" path="home">
+    <Memory>
+      <Data>
+        <Block>
+[自动驾驶警报]
+PIC：什么情况？
+FO：自动驾驶出了问题？
+PIC：我先保持姿态！你看一下飞控电脑!
+FO:自动驾驶固件缺失！
+PIC：什么...
+PIC：就像...PA0022？！
+FO：....
+PIC：先不要想PA0022了！想办法改出！
+FO：机鼻拉不起来！
+PIC：怎么可能？！
+PIC：液压失效了？！
+FO：我们超速了！
+[超速警告]
+[构型警告]
+PIC：操作手册有说到这种情况吗？
+FO：我正在找！
+FO：没有!
+PIC:把操作手册给我！我来找！
+[翻动声]
+PIC：怎么会...
+[引擎起火]
+FO：引擎起火了！
+[金属碎裂声]
+PIC：右侧引擎没有反应了？！
+FO：右侧机翼折断了！
+PIC：怎么...
+FO:机长！飞控电脑是故障了吗?
+PIC:R-O-O-T-K-I-T
+PIC:那是什么意思？！
+FO：我不知道！！
+PIC：不！！！！！！！！！！！
+[坠毁声]
+[录音停止]
+		</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+</Computer>

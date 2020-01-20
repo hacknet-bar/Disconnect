@@ -1,0 +1,37 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+write ###ROOTKIT### $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+delay 4 $#%#$
+write ROOTKIT Starting... $#%#$
+delay 4 $#%#$
+write FORKBOMB Starting... $#%#$
+delay 4 $#%#$
+write ALL CLEAR! $#%#$
+delay 4 $#%#$
+write BYE. $#%#$
+delete /sys x-server.sys $#%#$
+delay 0.12 $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+showRam $#%#$
+showNetMap $#%#$
+showDisplay $#%#$
+reboot -i $#%#$
+disconnect $#%#$

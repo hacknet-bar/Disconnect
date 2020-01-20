@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="D3F4ultWorkstation" name="D3F4ult 工作站" security="3"  allowsDefaultBootModule="false" type="1" >
+
+
+  <trace time="70" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 6881, 25, 443, 554, </ports>
+
+<portsForCrack val="4" />
+
+ <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="Themes/AbstractBlurryTheme.xml"/>
+  <customthemefile path="sys" name="D3F4ult_x-server.sys" themePath="Themes/AbstractBlurryTheme.xml"/>
+
+
+<dlink target="D3F4ultTracker" />
+
+</Computer>

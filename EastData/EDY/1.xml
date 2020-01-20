@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="EDY01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="EastData 超级之星 SATA 系列">
+EastData 超级之星 SATA 系列
+
+         容量|缓存
+         1TB |128MB
+         2TB |128MB
+         4TB |256MB
+         6TB |256MB
+         8TB |256MB
+         10TB|256MB
+         12TB|256MB
+         14TB|512MB
+
+特点：震动保护、双级驱动技术
+
+技术规格：
+         接口：SATA 24Gb/s
+         外形尺寸：3.5英寸
+		 RPM：7200
+	
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

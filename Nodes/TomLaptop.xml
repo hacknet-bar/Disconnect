@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TomLaptop" name="Tom 笔记本" security="4" icon="DLCLaptop"  allowsDefaultBootModule="false" type="1" >
+
+
+<ports>21, 22, 25, 80</ports>
+
+<portsForCrack val="0" />
+
+<customthemefile path="sys" name="x-server.sys" themePath="Themes/RainTheme.xml"/>
+<customthemefile path="sys" name="Tom-x-server.sys" themePath="Themes/RainTheme.xml"/>
+<dlink target="TomTracker" />
+
+</Computer>

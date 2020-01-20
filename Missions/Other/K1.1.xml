@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSMK" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Find Kaguya -Tom " reqs="DHSMK" >
+    寻找Kaguya留下的痕迹
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>寻找Kaguya</subject>
+    <body>
+	
+</body>
+    <attachments>
+
+    </attachments>
+  </email>
+</mission>

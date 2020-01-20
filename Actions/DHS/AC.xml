@@ -1,0 +1,19 @@
+<ConditionalActions>
+  
+  <Instantly>
+ 	<RunFunction FunctionName="playCustomSongImmediatley:Music/CrashTrack.ogg" />
+	<AddConditionalActions Filepath="Actions/DHS/playSong.xml" DelayHost="Cheat" Delay="20"/>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="1">***警报：PA3451已经坠毁！***</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="2">*** 与 Pot 作战基地 的追踪器连接发生错误！***</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="5">不！！！！！！！！！</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="9">......</AddIRCMessage>
+	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="12">........</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="15">......</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="18">....</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="21">...............</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="24">...我没想到Psylance和PacificAir来得那么快</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="27">Pot的死，我们有部分责任，但现在，我们有活干了</AddIRCMessage>
+	<AddConditionalActions Filepath="Actions/DHS/FindAircraft.xml" DelayHost="Cheat" Delay="27"/>
+  </Instantly>
+
+</ConditionalActions>

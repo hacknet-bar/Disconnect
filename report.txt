@@ -1,0 +1,201 @@
+Errors Found. Writing report to Extensions/Disconnect/report.txt
+
+Mission Errors for Extensions/Disconnect/Missions/5.xml:
+Error running end function loadConditionalActions:Actions/DHSend/5END.xml
+System.IO.FileNotFoundException 
+ 
+Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\5END.xml'.
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\5END.xml'.
+
+File name: 'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\5END.xml' 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
+ 
+ 
+ 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)Mission Errors for Extensions/Disconnect/Missions/6.xml:
+Error running end function loadConditionalActions:Actions/DHSend/6END.xml
+System.IO.FileNotFoundException 
+ 
+Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\6END.xml'.
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\6END.xml'.
+
+File name: 'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\6END.xml' 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
+ 
+ 
+ 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)Mission Errors for Extensions/Disconnect/Missions/7.xml:
+Error running end function loadConditionalActions:Actions/DHSend/7END.xml
+System.IO.FileNotFoundException 
+ 
+Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\7END.xml'.
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\7END.xml'.
+
+File name: 'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\7END.xml' 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
+ 
+ 
+ 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)Mission Errors for Extensions/Disconnect/Missions/Other/5.xml:
+Error running end function loadConditionalActions:Actions/DHSend/5END.xml
+System.IO.FileNotFoundException 
+ 
+Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\5END.xml'.
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\5END.xml'.
+
+File name: 'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\5END.xml' 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
+ 
+ 
+ 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)Mission Errors for Extensions/Disconnect/Missions/Other/6.xml:
+Error running end function loadConditionalActions:Actions/DHSend/6END.xml
+System.IO.FileNotFoundException 
+ 
+Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\6END.xml'.
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\6END.xml'.
+
+File name: 'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\6END.xml' 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
+ 
+ 
+ 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)Mission Errors for Extensions/Disconnect/Missions/Other/7.xml:
+Error running end function loadConditionalActions:Actions/DHSend/7END.xml
+System.IO.FileNotFoundException 
+ 
+Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\7END.xml'.
+ 
+Source : mscorlib 
+ 
+System.IO.FileNotFoundException: Could not find file
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\7END.xml'.
+
+File name: 'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Actions\DHSend\7END.xml' 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
+ 
+ 
+ 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean
+   useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String
+   msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)

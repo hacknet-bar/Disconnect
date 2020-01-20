@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSMK" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+  </goals>
+
+  <nextMission>NONE</nextMission>
+  <posting title="Take Flight" reqs="DHSMK" >
+    乘坐飞机 到线下帮忙
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>乘机</subject>
+    <body>
+	
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

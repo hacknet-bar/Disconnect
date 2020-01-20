@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+  <Instantly>
+<RunFunction FunctionName="setAssetServer:DCDrop" FunctionValue="1" />
+	<RunFunction FunctionName="setHubServer:DCDHS" />
+	<AddMissionToHubServer MissionFilepath="Missions/1.xml" TargetComp="DCDHS" />
+	<AddMissionToHubServer MissionFilepath="Missions/Other/1.2.xml" TargetComp="DCDHS" AssignmentTag="Kaguya"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Other/1.3.xml" TargetComp="DCDHS" AssignmentTag="Tom"/>
+  </Instantly>
+
+</ConditionalActions>
